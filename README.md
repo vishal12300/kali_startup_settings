@@ -8,6 +8,7 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 EOF
 ```
+---
 
 ### Solve apt-get or apt gpg key problem:
 
@@ -19,3 +20,35 @@ gpg -a --export 7D8D0BF6 | apt-key add -
 apt update
 
 ```
+---
+### Go lang installation 
+
+* Download the Go lang package [https://go.dev/dl/](https://go.dev/dl/)
+* After Download run
+
+```
+cd /root/Downloads
+tar -C /usr/local/ -xzf go1.13.6.linux-amd64.tar.gz
+```
+* Edit the ` .bashrd ` file
+```
+vim ~/.bashrc
+```
+
+Add the following paths
+
+```
+export GOPATH=/root/go-workspace
+export GOROOT=/usr/local/go
+PATH=$PATH:$GOROOT/bin/:$GOPATH/bin
+```
+
+
+``` 
+source ~/.bashrc
+go version
+```
+
+---
+
+
