@@ -61,4 +61,24 @@ go version
 
 ---
 
+## install Go in Google Compute Engine instance
+
+```
+sudo curl -O https://storage.googleapis.com/golang/go1.16.2.linux-amd64.tar.gz
+```
+
+```
+sudo tar -xvf go1.16.2.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go
+sudo mv go /usr/local
+sudo apt-get update
+```
+
+```
+export PATH=$PATH:/usr/local/go/bin
+```
+
+
+------
+
 
