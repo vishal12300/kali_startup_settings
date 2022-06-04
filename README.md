@@ -81,6 +81,7 @@ export PATH=$PATH:/usr/local/go/bin
 
 ------
 
+### privilege escalation scripts
 ``` 
 LinPeas: https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
 LinEnum: https://github.com/rebootuser/LinEnum
@@ -89,3 +90,13 @@ Linux Smart Enumeration: https://github.com/diego-treitos/linux-smart-enumeratio
 Linux Priv Checker: https://github.com/linted/linuxprivchecker
 ```
 
+
+------
+
+### RDP installation in kali linux
+```
+sudo apt-get install remmina
+```
+
+
+-------------
