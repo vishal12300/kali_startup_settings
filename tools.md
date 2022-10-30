@@ -9,6 +9,7 @@ go install -v github.com/tomnomnom/unfurl@latest
 go install github.com/ffuf/ffuf@latest
 go install github.com/lc/gau/v2/cmd/gau@latest
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 ```
 ---
 ### Finddomain
