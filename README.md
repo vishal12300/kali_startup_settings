@@ -100,3 +100,41 @@ sudo apt-get install remmina
 
 
 -------------
+
+```
+sudo apt install python3 
+sudo apt install pip pip3
+sudo apt-get install python-requests
+
+
+# Go lang installing
+sudo curl -O https://storage.googleapis.com/golang/go1.16.2.linux-amd64.tar.gz
+sudo tar -xvf go1.16.2.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go
+sudo mv go /usr/local
+sudo apt-get update
+
+export PATH=$PATH:/usr/local/go/bin
+
+
+# Sublister 
+
+git clone https://github.com/aboul3la/Sublist3r.git
+cd Sublist3r
+pip install -r requirements.txt
+pip3 install -r requirements.txt
+sudo python3 setup.py
+
+Sublist3r -v
+
+# Amass 
+
+brew install amass
+
+# Go lang tools 
+go get -u github.com/tomnomnom/assetfinder
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/tomnomnom/anew@latest
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+```
