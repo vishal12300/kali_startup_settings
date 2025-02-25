@@ -48,7 +48,7 @@ vim ~/.bashrc
 Add the following paths
 
 ```
-export GOPATH=/root/go-workspace
+export GOPATH=$HOME/go-workspace
 export GOROOT=/usr/local/go
 PATH=$PATH:$GOROOT/bin/:$GOPATH/bin
 ```
