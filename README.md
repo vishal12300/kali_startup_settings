@@ -132,11 +132,11 @@ Sublist3r -v
 brew install amass
 
 # Go lang tools 
-go get -u github.com/tomnomnom/assetfinder
-go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-go install -v github.com/tomnomnom/anew@latest
-go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+go install github.com/tomnomnom/assetfinder
+go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install github.com/tomnomnom/anew@latest
+go install github.com/projectdiscovery/httpx/cmd/httpx@latest
+go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 ```
 
 
