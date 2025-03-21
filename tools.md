@@ -28,3 +28,21 @@ pip3 install -r requirements.txt
 python3 setup.py install
 sublister
 ```
+
+
+## Automate bug bounty.
+SQLI - XSS - LFI
+```
+waymore -i urls | tee urls-his
+
+cat urls-his | gf sqli |urless| anew sqli
+cat urls-his | gf xss | urless|anew xss
+cat urls-his | gf lfi | urless|anew lfi
+
+ghauri -m sqli --confirm --batch --level=3  -b
+
+knoxnl -i xss -X BOTH 
+
+python3 lfimap.py -F lfi --use-long -a --no-stop
+```
+Use -x Exploit and send reverse shell if RCE is available 
