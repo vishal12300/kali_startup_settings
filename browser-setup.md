@@ -10,4 +10,5 @@
 * [https://addons.mozilla.org/en-US/firefox/addon/open-multiple-urls/](https://addons.mozilla.org/en-US/firefox/addon/open-multiple-urls/)
 * [https://addons.mozilla.org/en-US/firefox/addon/dotgit/](https://addons.mozilla.org/en-US/firefox/addon/dotgit/)
 * [https://addons.mozilla.org/en-US/firefox/addon/altair-graphql-client/](https://addons.mozilla.org/en-US/firefox/addon/altair-graphql-client/)
+* [https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 * 
