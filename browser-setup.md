@@ -12,4 +12,5 @@
 * [https://addons.mozilla.org/en-US/firefox/addon/altair-graphql-client/](https://addons.mozilla.org/en-US/firefox/addon/altair-graphql-client/)
 * [https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 * [https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)
+* [https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)
 * 
